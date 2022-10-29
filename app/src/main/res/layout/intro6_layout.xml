@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical" android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="#222222"
+              android:layout_weight="10"
+              android:id="@+id/main">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:paddingLeft="32dp"
+        android:paddingTop="38dp"
+        android:layout_weight="2"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:textColor="#ffffff"
+        android:textStyle="bold"
+        android:paddingRight="32dp"
+        android:textSize="28sp"
+        android:text="Export and Import local files in your device : )"/>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:layout_weight="5">
+
+        <ImageView
+            android:id="@+id/imageView4"
+            android:layout_width="391dp"
+            android:layout_height="400dp"
+            app:srcCompat="@drawable/intro6_image" />
+    </LinearLayout>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:textColor="#FFD500"
+        android:paddingLeft="64dp"
+        android:paddingRight="64dp"
+        android:textSize="14sp"
+
+        android:textStyle="italic"
+        android:text="@string/intro6Description"/>
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="64dp" />
+</LinearLayout>
